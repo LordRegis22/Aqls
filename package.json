@@ -1,6 +1,6 @@
 {
   "name": "@aqls/server",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An intelligent full-stack GraphQL subscription and analytics module. Server-side analytics processing, self-auditing router, and resolver plugins.",
   "main": "src/index.js",
   "scripts": {
