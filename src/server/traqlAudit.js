@@ -17,7 +17,7 @@ function traqlAudit(traql) {
     if (Object.keys(traql).length > 2) {
       let postReq = {
         method: 'post',
-        url: 'http://localhost:3000/aqls',
+        url: 'https://aqls.herokuapp.com/aqls',
       };
       // loop through the untracked traql entries
       for (let key in traql) {
