@@ -16,7 +16,7 @@ function analyticsRouter(traql) {
       res.sendStatus(200);
     }
   );
-  router.post('/aqlsanalytics/timesync', timesyncServer.requestHandler);
+  router.use('/timesync', timesyncServer.requestHandler);
   return router;
 }
 
